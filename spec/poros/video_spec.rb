@@ -3,44 +3,44 @@ require 'rails_helper'
 RSpec.describe Video do 
   it 'exists and has attributes' do 
     video_data = {
-            "kind": "youtube#searchResult",
-            "etag": "LFDX7l6p4834L6f-fefBMFczMCE",
-            "id": {
-                "kind": "youtube#video",
-                "videoId": "e_okM7Mig6s"
-            },
-            "snippet": {
-                "publishedAt": "2019-10-13T18:35:32Z",
-                "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
-                "title": "A Super Quick History of Canada",
-                "description": "Pictures Requiring Attribution: Buzzzsherman: https://en.wikipedia.org/wiki/File:Journal.pone.0001596.g004.png Dylan Kereluk ...",
-                "thumbnails": {
-                    "default": {
-                        "url": "https://i.ytimg.com/vi/e_okM7Mig6s/default.jpg",
-                        "width": 120,
-                        "height": 90
-                    },
-                    "medium": {
-                        "url": "https://i.ytimg.com/vi/e_okM7Mig6s/mqdefault.jpg",
-                        "width": 320,
-                        "height": 180
-                    },
-                    "high": {
-                        "url": "https://i.ytimg.com/vi/e_okM7Mig6s/hqdefault.jpg",
-                        "width": 480,
-                        "height": 360
-                    }
+        "kind": "youtube#searchResult",
+        "etag": "fZrxYep3SpOL2SRZRaridMLJhZ8",
+        "id": {
+            "kind": "youtube#video",
+            "videoId": "DD4wjwaFU-U"
+        },
+        "snippet": {
+            "publishedAt": "2021-05-07T03:20:53Z",
+            "channelId": "UCluQ5yInbeAkkeCndNnUhpw",
+            "title": "A Super Quick History of Italy",
+            "description": "Sources: \"A Brief History of Italy\" (2018) by Jeremy Black. Robinson Publishing, London. \"The Pursuit of Italy: A History of its ...",
+            "thumbnails": {
+                "default": {
+                    "url": "https://i.ytimg.com/vi/DD4wjwaFU-U/default.jpg",
+                    "width": 120,
+                    "height": 90
                 },
-                "channelTitle": "Mr History",
-                "liveBroadcastContent": "none",
-                "publishTime": "2019-10-13T18:35:32Z"
-          }
-      }
+                "medium": {
+                    "url": "https://i.ytimg.com/vi/DD4wjwaFU-U/mqdefault.jpg",
+                    "width": 320,
+                    "height": 180
+                },
+                "high": {
+                    "url": "https://i.ytimg.com/vi/DD4wjwaFU-U/hqdefault.jpg",
+                    "width": 480,
+                    "height": 360
+                }
+            },
+            "channelTitle": "Mr History",
+            "liveBroadcastContent": "none",
+            "publishTime": "2021-05-07T03:20:53Z"
+        }
+    }
 
     video = Video.new(video_data)
 
     expect(video).to be_an_instance_of(Video)
-    expect(video.title).to eq('A Super Quick History of Canada')
-    expect(video.youtube_video_id).to eq('e_okM7Mig6s')
+    expect(video.title).to eq('A Super Quick History of Italy')
+    expect(video.youtube_video_id).to eq('DD4wjwaFU-U')
   end 
 end
