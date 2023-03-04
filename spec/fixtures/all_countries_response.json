@@ -1,0 +1,405 @@
+[
+  {
+      "name": {
+          "common": "Gambia",
+          "official": "Republic of the Gambia",
+          "nativeName": {
+              "eng": {
+                  "official": "Republic of the Gambia",
+                  "common": "Gambia"
+              }
+          }
+      },
+      "tld": [
+          ".gm"
+      ],
+      "cca2": "GM",
+      "ccn3": "270",
+      "cca3": "GMB",
+      "cioc": "GAM",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": {
+          "GMD": {
+              "name": "dalasi",
+              "symbol": "D"
+          }
+      },
+      "idd": {
+          "root": "+2",
+          "suffixes": [
+              "20"
+          ]
+      },
+      "capital": [
+          "Banjul"
+      ],
+      "altSpellings": [
+          "GM",
+          "Republic of the Gambia"
+      ],
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "languages": {
+          "eng": "English"
+      },
+      "translations": {
+          "ara": {
+              "official": "جمهورية غامبيا",
+              "common": "غامبيا"
+          },
+          "bre": {
+              "official": "Republik islamek ar Gambia",
+              "common": "Gambia"
+          },
+          "ces": {
+              "official": "Gambijská republika",
+              "common": "Gambie"
+          },
+          "cym": {
+              "official": "Republic of the Gambia",
+              "common": "Gambia"
+          },
+          "deu": {
+              "official": "Republik Gambia",
+              "common": "Gambia"
+          },
+          "est": {
+              "official": "Gambia Vabariik",
+              "common": "Gambia"
+          },
+          "fin": {
+              "official": "Gambian tasavalta",
+              "common": "Gambia"
+          },
+          "fra": {
+              "official": "République de Gambie",
+              "common": "Gambie"
+          },
+          "hrv": {
+              "official": "Republika Gambija",
+              "common": "Gambija"
+          },
+          "hun": {
+              "official": "Gambiai Köztársaság",
+              "common": "Gambia"
+          },
+          "ita": {
+              "official": "Repubblica del Gambia",
+              "common": "Gambia"
+          },
+          "jpn": {
+              "official": "ガンビア共和国",
+              "common": "ガンビア"
+          },
+          "kor": {
+              "official": "감비아 공화국",
+              "common": "감비아"
+          },
+          "nld": {
+              "official": "Republiek Gambia",
+              "common": "Gambia"
+          },
+          "per": {
+              "official": "جمهوری گامبیا",
+              "common": "گامبیا"
+          },
+          "pol": {
+              "official": "Republika Gambii",
+              "common": "Gambia"
+          },
+          "por": {
+              "official": "República da Gâmbia",
+              "common": "Gâmbia"
+          },
+          "rus": {
+              "official": "Республика Гамбия",
+              "common": "Гамбия"
+          },
+          "slk": {
+              "official": "Gambijská republika",
+              "common": "Gambia"
+          },
+          "spa": {
+              "official": "República de Gambia",
+              "common": "Gambia"
+          },
+          "srp": {
+              "official": "Република Гамбија",
+              "common": "Гамбија"
+          },
+          "swe": {
+              "official": "Republiken Gambia",
+              "common": "Gambia"
+          },
+          "tur": {
+              "official": "Gambiya Cumhuriyeti",
+              "common": "Gambiya"
+          },
+          "urd": {
+              "official": "جمہوریہ گیمبیا",
+              "common": "گیمبیا"
+          },
+          "zho": {
+              "official": "冈比亚共和国",
+              "common": "冈比亚"
+          }
+      },
+      "latlng": [
+          13.46666666,
+          -16.56666666
+      ],
+      "landlocked": false,
+      "borders": [
+          "SEN"
+      ],
+      "area": 10689.0,
+      "demonyms": {
+          "eng": {
+              "f": "Gambian",
+              "m": "Gambian"
+          },
+          "fra": {
+              "f": "Gambienne",
+              "m": "Gambien"
+          }
+      },
+      "flag": "🇬🇲",
+      "maps": {
+          "googleMaps": "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
+          "openStreetMaps": "https://www.openstreetmap.org/relation/192774"
+      },
+      "population": 2416664,
+      "gini": {
+          "2015": 35.9
+      },
+      "fifa": "GAM",
+      "car": {
+          "signs": [
+              "WAG"
+          ],
+          "side": "right"
+      },
+      "timezones": [
+          "UTC+00:00"
+      ],
+      "continents": [
+          "Africa"
+      ],
+      "flags": {
+          "png": "https://flagcdn.com/w320/gm.png",
+          "svg": "https://flagcdn.com/gm.svg",
+          "alt": "The flag of Gambia is composed of three equal horizontal bands of red, blue with white top and bottom edges, and green."
+      },
+      "coatOfArms": {
+          "png": "https://mainfacts.com/media/images/coats_of_arms/gm.png",
+          "svg": "https://mainfacts.com/media/images/coats_of_arms/gm.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": {
+          "latlng": [
+              13.45,
+              -16.57
+          ]
+      }
+  },
+  {
+      "name": {
+          "common": "Åland Islands",
+          "official": "Åland Islands",
+          "nativeName": {
+              "swe": {
+                  "official": "Landskapet Åland",
+                  "common": "Åland"
+              }
+          }
+      },
+      "tld": [
+          ".ax"
+      ],
+        "cca2": "AX",
+        "ccn3": "248",
+        "cca3": "ALA",
+        "independent": false,
+        "status": "officially-assigned",
+        "unMember": false,
+        "currencies": {
+            "EUR": {
+                "name": "Euro",
+                "symbol": "€"
+            }
+        },
+        "idd": {
+            "root": "+3",
+            "suffixes": [
+                "5818"
+            ]
+        },
+        "capital": [
+            "Mariehamn"
+        ],
+        "altSpellings": [
+            "AX",
+            "Aaland",
+            "Aland",
+            "Ahvenanmaa"
+        ],
+        "region": "Europe",
+        "subregion": "Northern Europe",
+        "languages": {
+            "swe": "Swedish"
+        },
+        "translations": {
+            "ara": {
+                "official": "جزر أولاند",
+                "common": "جزر أولاند"
+            },
+            "bre": {
+                "official": "Inizi Åland",
+                "common": "Åland"
+            },
+            "ces": {
+                "official": "Ålandské ostrovy",
+                "common": "Ålandy"
+            },
+            "cym": {
+                "official": "Åland Islands",
+                "common": "Åland Islands"
+            },
+            "deu": {
+                "official": "Åland-Inseln",
+                "common": "Åland"
+            },
+            "est": {
+                "official": "Ahvenamaa maakond",
+                "common": "Ahvenamaa"
+            },
+            "fin": {
+                "official": "Ahvenanmaan maakunta",
+                "common": "Ahvenanmaa"
+            },
+            "fra": {
+                "official": "Ahvenanmaa",
+                "common": "Ahvenanmaa"
+            },
+            "hrv": {
+                "official": "Aland Islands",
+                "common": "Ålandski otoci"
+            },
+            "hun": {
+                "official": "Åland-szigetek",
+                "common": "Åland-szigetek"
+            },
+            "ita": {
+                "official": "Isole Åland",
+                "common": "Isole Aland"
+            },
+            "jpn": {
+                "official": "オーランド諸島",
+                "common": "オーランド諸島"
+            },
+            "kor": {
+                "official": "올란드 제도",
+                "common": "올란드 제도"
+            },
+            "nld": {
+                "official": "Åland eilanden",
+                "common": "Ålandeilanden"
+            },
+            "per": {
+                "official": "جزایر الند",
+                "common": "جزایر الند"
+            },
+            "pol": {
+                "official": "Wyspy Alandzkie",
+                "common": "Wyspy Alandzkie"
+            },
+            "por": {
+                "official": "Ilhas Åland",
+                "common": "Alândia"
+            },
+            "rus": {
+                "official": "Аландские острова",
+                "common": "Аландские острова"
+            },
+            "slk": {
+                "official": "Alandské ostrovy",
+                "common": "Alandy"
+            },
+            "spa": {
+                "official": "Islas Åland",
+                "common": "Alandia"
+            },
+            "srp": {
+                "official": "Оландска Острва",
+                "common": "Оландска Острва"
+            },
+            "swe": {
+                "official": "Åland",
+                "common": "Åland"
+            },
+            "tur": {
+                "official": "Åland Adaları",
+                "common": "Åland"
+            },
+            "urd": {
+                "official": "جزائر اولند",
+                "common": "جزائر اولند"
+            },
+            "zho": {
+                "official": "奥兰群岛",
+                "common": "奥兰群岛"
+            }
+        },
+        "latlng": [
+            60.116667,
+            19.9
+        ],
+        "landlocked": false,
+        "area": 1580.0,
+        "demonyms": {
+            "eng": {
+                "f": "Ålandish",
+                "m": "Ålandish"
+            },
+            "fra": {
+                "f": "Ålandaise",
+                "m": "Ålandais"
+            }
+        },
+        "flag": "🇦🇽",
+        "maps": {
+            "googleMaps": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
+            "openStreetMaps": "https://www.openstreetmap.org/relation/1650407"
+        },
+        "population": 29458,
+        "car": {
+            "signs": [
+                ""
+            ],
+            "side": "right"
+        },
+        "timezones": [
+            "UTC+02:00"
+        ],
+        "continents": [
+            "Europe"
+        ],
+        "flags": {
+            "png": "https://flagcdn.com/w320/ax.png",
+            "svg": "https://flagcdn.com/ax.svg"
+        },
+        "coatOfArms": {
+            "png": "https://mainfacts.com/media/images/coats_of_arms/ax.png",
+            "svg": "https://mainfacts.com/media/images/coats_of_arms/ax.svg"
+        },
+        "startOfWeek": "monday",
+        "capitalInfo": {
+            "latlng": [
+                60.12,
+                19.9
+            ]
+        }
+    }
+]
