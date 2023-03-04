@@ -2,8 +2,6 @@ require 'rails_helper'
 
 RSpec.describe RecipeService do 
   before :each do 
-    stub_request(:get, "https://restcountries.com/v3.1/all")
-      .to_return(status: 200, body: File.read('./spec/fixtures/all_countries_response.json'), headers: {})
     stub_request(:get, "https://api.edamam.com/api/recipes/v2?type=public&q=italy&app_id=#{ENV['recipe_app_id']}&app_key=#{ENV['recipe_app_key']}")
       .to_return(status: 200, body: File.read('./spec/fixtures/recipe_response.json'), headers: {})
   end
