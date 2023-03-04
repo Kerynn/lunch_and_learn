@@ -26,11 +26,14 @@ RSpec.describe Recipe do
       }
     }
 
-    recipe = Recipe.new(recipe_data)
+    country_name = 'Italy'
+
+    recipe = Recipe.new(recipe_data, country_name)
 
     expect(recipe).to be_an_instance_of(Recipe)
     expect(recipe.title).to eq('Baked Italy')
     expect(recipe.url).to eq('https://food52.com/recipes/10380-baked-italy')
     expect(recipe.image).to eq('https://edamam-product-images.s3.amazonaws.com')
+    expect(recipe.country).to eq('Italy')
   end
 end
