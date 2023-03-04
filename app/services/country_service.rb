@@ -1,4 +1,4 @@
-class RandomCountryService
+class CountryService
 
   def self.all_countries_search
     parse(conn.get('/v3.1/all'))

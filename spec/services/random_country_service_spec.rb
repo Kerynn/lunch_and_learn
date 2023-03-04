@@ -1,13 +1,13 @@
 require 'rails_helper'
 
-RSpec.describe RandomCountryService do 
+RSpec.describe CountryService do 
   before :each do 
     stub_request(:get, "https://restcountries.com/v3.1/all")
       .to_return(status: 200, body: File.read('./spec/fixtures/all_countries_response.json'), headers: {})    
   end
 
   it 'can return all countries' do 
-    response = RandomCountryService.all_countries_search 
+    response = CountryService.all_countries_search 
 
     expect(response).to be_an Array
     expect(response[0]).to be_a Hash
