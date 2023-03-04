@@ -6,7 +6,7 @@ RSpec.describe YoutubeService do
       .to_return(status: 200, body: File.read('./spec/fixtures/italy_photos_response.json'), headers: {})
   end
 
-  it 'can return a collection of up to ten photo objects' do 
+  it 'can return a collection of photo objects' do 
     photos = PhotoFacade.get_photos('italy')
 
     expect(photos).to be_an Array
