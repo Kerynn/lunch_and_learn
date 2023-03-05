@@ -40,4 +40,14 @@ RSpec.describe 'Create User API' do
     expect(response).to have_http_status(400)
     expect(response.body).to include('Email has already been taken')
   end
+
+  it 'will have an error response if missing attributes in request' do 
+    headers = { 'CONTENT_TYPE' => 'application/json', 'ACCEPT' => 'application/json' }
+    body = { name: '', email: 'jimmyjam@example.com' }
+    post '/api/v1/users', params: body.to_json, headers: headers
+
+    expect(response).to_not be_successful
+    expect(response).to have_http_status(400)
+    expect(response.body).to include("Name can't be blank")
+  end
 end
