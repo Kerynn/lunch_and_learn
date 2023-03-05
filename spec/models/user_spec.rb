@@ -10,6 +10,10 @@ RSpec.describe User do
     it { should validate_uniqueness_of :api_key }
   end
 
+  describe 'relationships' do 
+    it { should have_many :favorites }
+  end
+
   describe 'create api key' do 
     it 'generates random hexadecimal strings for user api key' do
 
