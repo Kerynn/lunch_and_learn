@@ -1,5 +1,9 @@
 class CountryService
 
+  def self.country_search(country_name)
+    parse(conn.get("/v3.1/name/#{country_name}"))
+  end
+
   def self.all_countries_search
     parse(conn.get('/v3.1/all'))
   end

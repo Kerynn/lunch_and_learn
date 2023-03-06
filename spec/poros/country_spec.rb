@@ -12,6 +12,12 @@ RSpec.describe Country do
                 "common": "Gambia"
             }
           }
+        },
+        "capitalInfo": {
+          "latlng": [
+              48.87,
+              2.33
+          ]
         }
      }
 
@@ -19,5 +25,8 @@ RSpec.describe Country do
 
     expect(country).to be_an_instance_of(Country)
     expect(country.name).to eq("Gambia")
+    expect(country.latlong).to be_an Array
+    expect(country.latitude).to eq(48.87)
+    expect(country.longitude).to eq(2.33)
   end
 end
