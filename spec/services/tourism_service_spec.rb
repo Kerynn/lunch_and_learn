@@ -19,7 +19,12 @@ RSpec.describe CountryService do
       expect(result[:properties]).to have_key(:country)
       expect(result[:properties]).to have_key(:formatted)
       expect(result[:properties]).to have_key(:categories)
+      expect(result[:properties]).to have_key(:datasource)
+      expect(result[:properties]).to have_key(:details)
       expect(result[:properties]).to have_key(:place_id)
+      expect(result).to have_key(:geometry)
+      expect(result[:geometry]).to have_key(:type)
+      expect(result[:geometry]).to have_key(:coordinates)
     end
   end 
 end 
