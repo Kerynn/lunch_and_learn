@@ -19,4 +19,23 @@ RSpec.describe CountryService do
     expect(response[0][:name]).to have_key(:nativeName)
     expect(response[0][:name][:nativeName]).to be_a Hash
   end
+
+  it 'can return one country' do 
+    WebMock.allow_net_connect!
+
+    response = CountryService.country_search('france')
+
+    expect(response).to be_an Array
+    expect(response[0]).to be_a Hash
+    expect(response[0]).to have_key(:name)
+    expect(response[0][:name]).to have_key(:common)
+    expect(response[0][:name][:common]).to be_a String
+    expect(response[0][:name]).to have_key(:official)
+    expect(response[0][:name][:official]).to be_a String
+    expect(response[0][:name]).to have_key(:nativeName)
+    expect(response[0][:name][:nativeName]).to be_a Hash
+    expect(response[0]).to have_key(:capitalInfo)
+    expect(response[0][:capitalInfo]).to have_key(:latlng)
+    expect(response[0][:capitalInfo][:latlng]).to be_an Array
+  end
 end

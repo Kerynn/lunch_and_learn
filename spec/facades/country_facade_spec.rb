@@ -20,4 +20,12 @@ RSpec.describe CountryFacade do
 
     expect(random_country).to be_an_instance_of(Country)
   end
+
+  it 'can return a country object when searched by name' do 
+    WebMock.allow_net_connect!
+
+    country = CountryFacade.get_country_info('france')
+
+    expect(country).to be_an_instance_of(Country)
+  end
 end
