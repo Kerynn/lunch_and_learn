@@ -3,7 +3,9 @@ require 'rails_helper'
 RSpec.describe CountryService do 
   before :each do 
     stub_request(:get, "https://restcountries.com/v3.1/all")
-      .to_return(status: 200, body: File.read('./spec/fixtures/all_countries_response.json'), headers: {})    
+      .to_return(status: 200, body: File.read('./spec/fixtures/all_countries_response.json'), headers: {}) 
+    stub_request(:get, "https://restcountries.com/v3.1/name/france")
+      .to_return(status: 200, body: File.read('./spec/fixtures/final_fixtures/france_response.json'), headers: {}) 
   end
 
   it 'can return all countries' do 
@@ -21,8 +23,6 @@ RSpec.describe CountryService do
   end
 
   it 'can return one country' do 
-    WebMock.allow_net_connect!
-
     response = CountryService.country_search('france')
 
     expect(response).to be_an Array
