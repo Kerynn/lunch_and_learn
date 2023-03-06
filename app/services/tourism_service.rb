@@ -1,7 +1,7 @@
 class TourismService
 
   def self.tourism_search(longitude, latitude)
-    parse(conn.get("/v2/places?filter=circle:#{longitude},#{latitude},20000"))
+    parse(conn.get("/v2/places?filter=circle:#{longitude},#{latitude},2000"))
   end
 
   def self.parse(response)
