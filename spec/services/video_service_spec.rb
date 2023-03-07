@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe YoutubeService do 
+RSpec.describe VideoService do 
   before :each do 
     stub_request(:get, "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw&key=#{ENV['youtube_api']}&q=italy&maxResults=1")
       .to_return(status: 200, body: File.read('./spec/fixtures/italy_history_response.json'), headers: {})
@@ -8,7 +8,7 @@ RSpec.describe YoutubeService do
 
   it 'can return the searched youtube results' do
     search_query = 'italy'
-    response = YoutubeService.video_search(search_query)
+    response = VideoService.video_search(search_query)
 
     expect(response).to be_a Hash
     expect(response).to have_key(:kind)

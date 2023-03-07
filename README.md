@@ -24,6 +24,9 @@ The variable names of your api keys must follow this pattern:
 * unsplash_api_key: YOUR UNSPLASH API KEY
 * unsplash_secret_key: YOUR UNSPLASH SECRET KEY
 
+[Places API](https://apidocs.geoapify.com/docs/places/#about)
+* places_api_key: 'YOUR PLACES API KEY'
+
 [REST Countries API](https://restcountries.com/#api-endpoints-v3-all)
 * This API was also consumed, but does not require an API Key.
 
@@ -192,5 +195,45 @@ Accept: application/json
             }
         }
     ]
- } 
+ }
+```
+
+### Get Tourist Sights 
+**Request:** `GET /api/v1/tourist_sights?country=<country_name>`
+
+**Response:**
+```
+{
+    "data": [
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Tour de l'horloge",
+                "address": "Tour de l'horloge, Allée de l'Horloge, 23200 Aubusson, France",
+                "place_id": "51d28..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Château",
+                "address": "Le Château, D 18, 23150 Ahun, France",
+                "place_id": "51934..."
+            }
+        },
+        {
+            "id": null,
+            "type": "tourist_sight",
+            "attributes": {
+                "name": "Le Chapître",
+                "address": "Le Chapître, Rue du Chapitre, 23200 Aubusson, France",
+                "place_id": "517182..."
+            }
+        },
+        ...,
+        ...,
+    ]
+}
 ```

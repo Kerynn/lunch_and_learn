@@ -95,6 +95,6 @@ RSpec.describe 'Learning Resource API' do
     expect(resources[:data][:attributes][:video]).to eq({})
     expect(resources[:data][:attributes]).to have_key(:images)
     expect(resources[:data][:attributes][:images]).to be_an Array
-    expect(resources[:data][:attributes][:images]).to eq([])
+    expect(resources[:data][:attributes][:images].count).to eq(0)
   end
 end
