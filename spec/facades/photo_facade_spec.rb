@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe YoutubeService do 
+RSpec.describe PhotoFacade do 
   before :each do 
     stub_request(:get, "https://api.unsplash.com/search/photos?query=italy&client_id=#{ENV['unsplash_api_key']}")
       .to_return(status: 200, body: File.read('./spec/fixtures/italy_photos_response.json'), headers: {})

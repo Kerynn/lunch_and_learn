@@ -1,4 +1,4 @@
-class YoutubeService 
+class VideoService 
 
   def self.video_search(country_name)
     parse(conn.get("/youtube/v3/search?q=#{country_name}"))
